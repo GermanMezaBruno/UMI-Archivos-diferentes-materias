@@ -1,0 +1,89 @@
+CREATE DATABASE COPPEL;
+GO 
+USE COPPEL
+
+CREATE TABLE CentroTrabajo(
+NoCentro int PRIMARY KEY,
+NombreCentro varchar (40),
+Ciudad varchar (20),
+);
+
+CREATE TABLE Puestos(
+NoPuesto int PRIMARY KEY,
+Puesto varchar (40),
+Descripcion varchar (100),
+);
+
+CREATE TABLE Empleado(
+NoEmpleado int IDENTITY(1,1) PRIMARY KEY,
+Nombre varchar (20),
+ApellidoP varchar (20),
+ApellidoM varchar (20),
+FechaNacimiento date,
+RFC AS (
+        UPPER(LEFT(ApellidoP,1) +
+              LEFT(ApellidoM,1) +
+              LEFT(Nombre,1) +
+              RIGHT(CONVERT(VARCHAR, FechaNacimiento, 112),6))
+    ) PERSISTED,
+
+CentroTrabajo varchar (10), 
+Puesto varchar (20),
+DescripcionPuesto varchar (100),
+directivo int,
+);
+
+CREATE TABLE Directivos(
+NoEmpleado int,
+NumeroCentroSupervisacion varchar ( 10),
+Prestaciones int,
+FOREIGN KEY (NoEmpleado) REFERENCES Empleado(NoEmpleado),
+);
+
+INSERT INTO CentroTrabajo (NoCentro, NombreCentro, Ciudad)
+VALUES 
+(000201, 'Tiendas Angel Flores Ropa', 'Culiacan'),
+(000202, 'Tiendas Angel Flores Muebles', 'Culiacan'),
+(000203, 'Tiendas Angel Flores Cajas', 'Culiacan'),
+(049001, 'La primavera Ropa', 'Culiacan'),
+(049002, 'La primavera Muebles', 'Culiacan'),
+(049003, 'La primavera Cajas', 'Culiacan');
+
+
+INSERT INTO Empleado (Nombre, ApellidoP, ApellidoM, FechaNacimiento, CentroTrabajo, Puesto, DescripcionPuesto, directivo)
+VALUES
+('Diego', 'Palma','Meza','2007-02-15','Tiendas Angel Flores Ropa','Ropa','Vender Ropa',0),
+('Andrea', 'German','Meza','2002-02-19','Tiendas Angel Flores muebles','Muebles','Vender Muebles',1),
+('Bruno Alberto', 'German','Meza','1997-05-27','La primavera Ropa','Ropa','Vender Ropa',1),
+('Dulce Mairani', 'Parra','Ruiz','2000-11-24','La primavera Cajas','Cajas','Atender Clientes',1),
+('Carmen Lucinda', 'Meza','Guerrero','1962-01-07','La primavera muebles','Muebles','Vender Muebles',0);
+
+INSERT INTO Puestos(NoPuesto, Puesto, Descripcion)
+VALUES 
+('1', 'caja', 'Marcar la mercancía'),
+('2', 'Ropa', 'Atender sobre la ropa'),
+('3', 'Muebles', 'Atender sobre los muebles');
+
+INSERT INTO Directivos(NoEmpleado, NumeroCentroSupervisacion, Prestaciones)
+VALUES 
+(2, '202', 01),
+(3, '49001', 01),
+(4, '49003', 01);
+
+
+Alter table Empleado
+Alter column CentroTrabajo varchar(50); --La modifique porque me dio error ya que antes solo se podian 10 caracteres
+
+
+TRUNCATE TABLE Empleado;--Borra toda la infor y regresa el contador IDENTITY pero no pude por tener clave foranea--
+
+DELETE FROM Empleado;--Borre toda la info porque el contador de NoEmpleado empezaba en 3 y queria reiniciarlo a 0.
+DBCC CHECKIDENT ('Empleado', RESEED, 0); --Con este comando se reinicio el identity a 0 y volvi a meter los datos para que salieran desde el numero 1.
+
+select * from Empleado
+
+select * from CentroTrabajo
+
+select * from Puestos
+
+select * from Directivos
