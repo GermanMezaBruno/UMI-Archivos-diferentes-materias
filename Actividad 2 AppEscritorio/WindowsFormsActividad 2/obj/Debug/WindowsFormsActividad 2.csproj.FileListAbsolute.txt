@@ -1,0 +1,28 @@
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\WindowsFormsActividad 2\WindowsFormsActividad 2\bin\Debug\WindowsFormsActividad 2.exe.config
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\WindowsFormsActividad 2\WindowsFormsActividad 2\bin\Debug\WindowsFormsActividad 2.exe
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\WindowsFormsActividad 2\WindowsFormsActividad 2\bin\Debug\WindowsFormsActividad 2.pdb
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad 2.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad_2.FormMenu.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad_2.Formularios.FormSaludo.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad_2.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad 2.csproj.GenerateResource.cache
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad 2.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad 2.exe
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad 2.pdb
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad 2.exe.config
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\bin\Debug\WindowsFormsActividad 2.exe.config
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\bin\Debug\WindowsFormsActividad 2.exe
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\bin\Debug\WindowsFormsActividad 2.pdb
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad 2.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad 2.exe.config
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad_2.FormMenu.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad_2.Formularios.FormSaludo.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad_2.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad 2.csproj.GenerateResource.cache
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad 2.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad 2.exe
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad 2.pdb
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad_2.Formularios.FormDatosPersonales.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad_2.Formularios.FormOperacionesBasicas.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad_2.Formularios.FormIngreso.resources
+C:\Users\user\Documents\Visual Studio 2022\Trabajos UMI\Lenguajes de programación III C# .NET\WindowsFormsActividad 2\WindowsFormsActividad 2\obj\Debug\WindowsFormsActividad_2.Formularios.FormError.resources
